@@ -1,12 +1,19 @@
-# React + Vite
+# 🚀 React Victor Almeida
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi criado com **React + Vite** e tem como objetivo ser um ambiente de aprendizado e prática de boas práticas em desenvolvimento front-end, versionamento com Git/GitHub e fluxo de trabalho baseado em **Git Flow**.
 
-Currently, two official plugins are available:
+## 📂 Estrutura do Projeto
+- `main` → código estável (produção)
+- `develop` → branch de integração das features
+- `feature/*` → branches de novas funcionalidades (ex: `feature/pagina-em-construcao`, `feature/barlateral`)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tecnologias Utilizadas
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Node.js](https://nodejs.org/)
+- Git/GitHub
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Como rodar o projeto localmente
+Clone o repositório:
+```bash
+git clone https://github.com/victoralmeidaa/react_victor-almeida.git
