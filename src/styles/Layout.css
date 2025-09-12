@@ -1,0 +1,36 @@
+.layout {
+  display: flex;
+  gap: 20px; /* espaço entre os containers */
+  width: 100%; /* ocupa 100% da largura */
+  min-height: 100vh; /* altura mínima = tela inteira */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.bar-lateral {
+  flex: 3; /* ocupa 3 partes de um total de 10 */
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.main-container {
+  flex: 7; /* ocupa 7 partes de um total de 10 */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsividade: até 768px (tablet/celular), empilha */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .bar-lateral,
+  .main-container {
+    flex: 1; /* cada um ocupa 100% */
+  }
+}
