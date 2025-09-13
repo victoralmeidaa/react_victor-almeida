@@ -1,6 +1,6 @@
 
-import BarLateral from "./containers/BarLateral";
-import MainContainer from "./containers/MainConteiner";
+import BarLateral from "./components/BarLateral";
+import MainContainer from "./components/MainConteiner";
 import "./styles/Layout.css";
 
 function App() {
