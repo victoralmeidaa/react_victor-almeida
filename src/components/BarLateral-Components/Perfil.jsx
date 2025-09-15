@@ -1,7 +1,7 @@
-//import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai"
 import "../../styles/Perfil.css";
 import MinhaFoto from "../../img/eu.jpg";
 import RedesSociais from "./RedesSociais.jsx";
+import InfoContato from "./InfoContato.jsx";
 
 export default function Perfil() {
   return (
@@ -11,6 +11,7 @@ export default function Perfil() {
         <p className="perfil-descricao">Desenvolvedor Fullstack em Construçao</p>
         <div className="redesSociais">
             <RedesSociais />
+            <InfoContato /> 
         </div>
     </div>
   );
