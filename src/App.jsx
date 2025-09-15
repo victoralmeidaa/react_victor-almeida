@@ -6,9 +6,11 @@ import "./styles/Layout.css";
 function App() {
   return (
     <div className="layout">
-      
-      <BarLateral />
-      <MainContainer />
+      <h1 className="portfolioName">Victor Almeida</h1>
+      <div className="conteines">
+        <BarLateral />
+        <MainContainer />
+      </div>
     </div>
   )
   
