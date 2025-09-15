@@ -11,10 +11,21 @@
 }
  
 /* REDES SOCIAL */
-
+.perfil-redes{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
 .perfil-icone{
     font-size: 2rem;
     color: #333;
     border-radius: 15%;
     transition: transform 0.2 ease, color 0.2 ease; 
+}
+
+.perfil-icone:hover{
+    transform: scale(1.1);
+    color: #0077b5;
+    
 }
