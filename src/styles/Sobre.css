@@ -1,0 +1,55 @@
+/*SOBRE*/
+.sobre {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sobre h1 {
+  font-size: 2.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.sobre h2 {
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.sobre strong {
+  color: #333;
+}
+
+.sobre em {
+  font-style: italic;
+  color: #444;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sobre {
+    padding: 15px;
+    margin: 20px 10px;
+  }
+
+  .sobre h1 {
+    font-size: 2rem;
+  }
+
+  .sobre h2 {
+    font-size: 1.4rem;
+  }
+}
