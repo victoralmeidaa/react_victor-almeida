@@ -1,3 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .layout {
   display: flex;
   flex-direction: column;
@@ -10,8 +18,10 @@
 }
 
 .portfolioName {
-  margin-bottom: 20px;
-  font-size: 2rem;
+  width: 90%;
+  margin-bottom: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 4rem;
   color: #333;
 }
 
