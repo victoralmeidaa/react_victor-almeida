@@ -9,3 +9,12 @@
     border-radius: 50%;
     
 }
+ 
+/* REDES SOCIAL */
+
+.perfil-icone{
+    font-size: 2rem;
+    color: #333;
+    border-radius: 15%;
+    transition: transform 0.2 ease, color 0.2 ease; 
+}
