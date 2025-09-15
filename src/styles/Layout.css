@@ -47,3 +47,14 @@ html, body {
 .conteines > :last-child {
   flex: 1; /* MainContainer (70%) */
 }
+
+@media (max-width: 768px) {
+  .conteines {
+    flex-direction: column;
+  }
+
+  .conteines > :first-child,
+  .conteines > :last-child {
+    flex: 1;
+  }
+}
