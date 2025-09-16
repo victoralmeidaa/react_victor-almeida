@@ -8,7 +8,7 @@ export default function Sobre(){
             <h2>Bem vindo ao meu Portfolio</h2>
             <p>
                 📚 Olá! Me chamo Victor Almeida, atualmente estou no 4° período de 
-                <em>Análise e Desenvolvimento de Sistemas</em> na UniAvan.
+                 Análise e Desenvolvimento de Sistemas na UniAvan.
             </p>
             <p>
                 Tenho habilidades em várias linguagens e tecnologias importantes para o

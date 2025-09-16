@@ -13,7 +13,7 @@ html, body {
   width: 100%;
   min-height: 100vh;
   background-color: #f5f5f5;
-  padding: 20px;
+  padding: 0 20px 0 20px;
   box-sizing: border-box;
 }
 
@@ -57,4 +57,69 @@ html, body {
   .conteines > :last-child {
     flex: 1;
   }
+}
+
+
+/* Navbar */
+/* Modo claro padrão */
+body {
+  background-color: #791717;
+  color: #333;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #7b7b7b;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+/* Containers principais */
+.layout,
+.conteines > * {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Modo escuro */
+body.dark-mode {
+  background-color: #121212;
+  color: #c40000;
+}
+
+body.dark-mode .navbar {
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+body.dark-mode .conteines > * {
+  background-color: #1c1c1c;
+  color: #4d4343;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+body.dark-mode .info-contato{
+  background-color: #424242;
+}
+
+body.dark-mode .sobre{
+  background-color: #424242;
+}
+
+body.dark-mode .layout{
+  background-color: #424242;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p {
+  color: #c4c1c1;
+}
+
+/* Links e ícones (opcional) */
+body.dark-mode a {
+  color: #4da6ff;
 }
