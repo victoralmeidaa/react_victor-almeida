@@ -8,7 +8,7 @@ export default function Perfil() {
     <div className="perfil">
         <img src={MinhaFoto} alt="Foto de perfil" className="perfil-foto" />
         <h2 className="perfil-name">Victor Almeida</h2>
-        <p className="perfil-descricao">Desenvolvedor Fullstack em Construçao 🚀</p>
+        <p className="perfil-descricao">🚀 Desenvolvedor Fullstack em Construçao 🚀</p>
         <div className="redesSociais">
             <RedesSociais />
             <InfoContato /> 
