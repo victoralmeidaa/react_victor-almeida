@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+  padding: 15px 0px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   position: sticky;
@@ -10,12 +10,12 @@
   z-index: 100;
 }
 
-
-
-.dark-mode-toggle {
-  width: 50px;
+.dark-mode-button {
+  width: 65px;
   height: 30px;
   border-radius: 20px;
+  padding: 20px 0px;
+  margin: 0px 20px;
   border: none;
   background-color: #f0f0f0;
   cursor: pointer;
@@ -26,18 +26,18 @@
   transition: background 0.3s;
 }
 
-.dark-mode-toggle .icon {
+.dark-mode-button .icon {
   color: #333;
   font-size: 1.2rem;
   transition: transform 0.3s;
 }
 
-.dark-mode-toggle.active .icon {
+.dark-mode-button.active .icon {
   transform: rotate(360deg);
 }
 
 /* Hover */
-.dark-mode-toggle:hover {
+.dark-mode-button:hover {
   background-color: #ddd;
 }
 
@@ -52,14 +52,14 @@ body.dark-mode .navbar {
   box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
-body.dark-mode .dark-mode-toggle {
+body.dark-mode .dark-mode-button {
   background-color: #333;
 }
 
-body.dark-mode .dark-mode-toggle .icon {
+body.dark-mode .dark-mode-button .icon {
   color: #f5f5f5;
 }
 
-body.dark-mode .dark-mode-toggle:hover {
+body.dark-mode .dark-mode-button:hover {
   background-color: #444;
 }

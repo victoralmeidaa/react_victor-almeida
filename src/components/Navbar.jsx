@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className="navbar">
       
       <button
-        className={`dark-mode-toggle ${darkMode ? "active" : ""}`}
+        className={`dark-mode-button ${darkMode ? "active" : ""}`}
         onClick={() => setDarkMode(!darkMode)}
       >
         <span className="icon">

@@ -4,6 +4,8 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
 .layout {
@@ -13,7 +15,6 @@ html, body {
   width: 100%;
   min-height: 100vh;
   background-color: #f5f5f5;
-  padding: 0 20px 0 20px;
   box-sizing: border-box;
 }
 
@@ -35,6 +36,7 @@ html, body {
 
 .conteines > * {
   background: white;
+  color: #333;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -59,28 +61,11 @@ html, body {
   }
 }
 
-
-/* Navbar */
-/* Modo claro padrão */
-body {
-  background-color: #791717;
-  color: #333;
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 /* Navbar */
 .navbar {
   background-color: #7b7b7b;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   width: 100%;
-}
-
-/* Containers principais */
-.layout,
-.conteines > * {
-  background-color: #fff;
-  color: #333;
 }
 
 /* Modo escuro */
